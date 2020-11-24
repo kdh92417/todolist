@@ -70,7 +70,7 @@ function handleResize(event){
 window.addEventListener("resize", handleResize) // handleResize() 해버리면 바로호출함
 
 function handleClick(){
-    if (title.style.color == "black") {
+    if (title.style.color === "black") {
         title.style.color = "Blue"
     }
     else {
@@ -81,3 +81,32 @@ function handleClick(){
 
 title.addEventListener("click", handleClick)
 
+
+
+// ===================================
+// 2-5 조건문 if, else and, or
+
+if (10 === 5) {     // '===' : equal 같은지 비교하는 연산자 (python 에서는 ==)
+    console.log('Hi')
+}
+else {
+    console.log('Good')
+}
+
+// 비교연산자 
+// && : and
+// || : or
+
+if (20 > 5 && "Adam" === "Adam") {     
+    console.log("yes")
+} else {
+    console.log("no")
+}
+
+// prompt : 오래된 자바스크릅트로서 유저한테 질문하는 이벤트이다 ( 현재는 잘 안씀) 정말좋지 않음!!!
+const age = prompt("How old are you?");
+if (age > 19) {
+    console.log("You have to go to the army")
+} else {
+    console.log("You don't have to go the army yet")
+}
