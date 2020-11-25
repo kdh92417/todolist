@@ -44,7 +44,7 @@ function paintGreeting(text) {
 function loadName(){
     const currentUser = localStorage.getItem(USER_LS)
     if (currentUser === null) {
-        // user is not
+        // user is not 
         askForName();
     } else {
         // user is
@@ -59,4 +59,4 @@ function init() {
 init();
 
 // 3-4 Saving the User Name part Two
-// prevent, 
+// prevent, Local
