@@ -60,3 +60,5 @@ init();
 
 // 3-4 Saving the User Name part Two
 // prevent, Local
+
+// 3-7 todolist 의 항목을 지우기 위해서는 toDos의 항목을 지우고 저장해야된다. 또한 HTML에서도 지워야된다.
